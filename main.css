@@ -1,0 +1,1015 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.container{
+    display: flex;
+}
+.container .left_section{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.container .left_section .candidate_images{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .left_section .candidate_images img{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin-top: 15%;
+}
+.container .left_section .candidate_images h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #424243;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+.container .left_section .candidate_images #surname{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #424243;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}
+.container .left_section .candidate_images p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-size: 14px;
+    color: #424243;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+.container .left_section .info{
+    background-color: #bed8ec;
+    margin-top: 60px;
+}
+.container .left_section .info .contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+}
+.container .left_section .info .title_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    background-color: #424243;
+    color: white;
+    position: relative;
+    bottom: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7%;
+    text-transform: uppercase;
+}
+.container .left_section .info .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    background-color: #424243;
+    color: white;
+    margin: 10% 0 10% 18%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.container .left_section .info .contact .lines{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+    color: #424243;
+}
+.container .left_section .info .contact .lines a{
+    text-decoration: none;
+    color: #424243;
+}
+.container .left_section .info .contact .lines a:hover{
+    transition: 0.2s;
+    color: white;
+}
+.container .left_section .info .contact .lines img{
+    width: 6%;
+    margin-right: 3%;
+}
+.container .left_section .info .social .lines{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5%;
+    color: #424243;
+    margin-left: 18%;
+}
+.container .left_section .info .social .lines a{
+    text-decoration: none;
+    color: #424243;
+}
+.container .left_section .info .social .lines a:hover{
+    transition: 0.2s;
+    color: white;
+}
+.container .left_section .info .social img{
+    width: 8%;
+    margin-right: 3%;
+}
+.container .left_section .info .speak .ukrainian{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    margin-left: 18%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .ukrainian h3{
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .ukrainian .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .ukrainian .dots .dot{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .russian {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    margin-left: 18%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .russian h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .russian .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .russian .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .english {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    margin-left: 18%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .english h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .english .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .english .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .spanish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    margin-left: 18%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .spanish h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .left_section .info .speak .spanish .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .left_section .info .speak .spanish .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+#gray{
+    background-color: #424243;
+}
+.container .left_section .info .hobby{
+    display: flex;
+    flex-wrap: wrap;
+    height: 340px;
+}
+.container .left_section .info .hobby .box{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    margin: -20% 0 0 18%;
+}
+.container .right_section{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: 3% 5% 0% 9%;;
+}
+.container .right_section .about{
+    height: 255px;
+}
+.container .right_section .about .caption{
+    display: flex;
+    flex-direction: row;  
+}
+.container .right_section .about .caption img{
+    width: 6%;
+    height: 2%;
+    margin-top: 2%;
+}
+.container .right_section .about .caption h2{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #424243;
+}
+.container .right_section .learning .caption{
+    display: flex;
+    flex-direction: row;
+}
+.container .right_section .learning .caption img{
+    width: 6%;
+    height: 2%;
+    margin-top: 2%;
+}
+.container .right_section .learning .caption h2{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .learning .study{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: -4%;
+    padding-top: 2%;
+}
+.container .right_section .learning .study .period{
+    display: flex;
+    justify-content: space-between;
+}
+.container .right_section .learning .study .period .name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .learning .study .period .date{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+}
+.container .right_section .learning .study p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #424243;
+}
+.container .right_section .profession{
+    margin-top: 8%;
+}
+.container .right_section .profession .caption{
+    display: flex;
+    flex-direction: row;
+}
+.container .right_section .profession .caption img{
+    width: 6%;
+    height: 2%;
+    margin-top: 2%;
+}
+.container .right_section .profession .caption h2{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .profession .work{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: -4%;
+    padding-top: 2%;
+}
+.container .right_section .profession .work .period{
+    display: flex;
+    justify-content: space-between;
+}
+.container .right_section .profession .work .period .name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .profession .work .period .date{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+}
+.container .right_section .profession .work p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #424243;
+}
+.container .right_section .mastery{
+    margin-top: 22%;
+}
+.container .right_section .mastery .caption{
+    display: flex;
+    flex-direction: row;
+}
+.container .right_section .mastery .caption img{
+    width: 6%;
+    height: 2%;
+    margin-top: 2%;
+}
+.container .right_section .mastery .main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1%;
+}
+.container .right_section .mastery .main .box{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.container .right_section .mastery .main .boxing {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.container .right_section .mastery .caption h2{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #424243;
+}
+.container .right_section .mastery .box .photoshop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .photoshop h3 {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .photoshop .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .photoshop .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .html {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .html h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .html .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .html .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .css {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .css h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .css .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .css .dots .dot{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .javaScript {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .javaScript h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .box .javaScript .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .box .javaScript .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .photoshop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .photoshop h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .photoshop .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .photoshop .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .html {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .html h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .html .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .html .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .css {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .css h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .css .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .css .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .javaScript {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .javaScript h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #424243;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container .right_section .mastery .boxing .javaScript .dots {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    border-radius: 50%;
+}
+.container .right_section .mastery .boxing .javaScript .dots .dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #d0d1d3;
+    border-radius: 50%;
+}
+@media (max-width: 1100px){
+    .container .left_section .info .title{
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+ }
+ .container .left_section .info .speak .ukrainian{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18%;
+ }
+ .container .left_section .info .speak .ukrainian h3{
+    justify-content: center;
+ }
+ .container .left_section .info .speak .ukrainian .dots{
+    width: 70%;
+ }
+ .container .left_section .info .speak .russian {
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 18%;
+ }
+ .container .left_section .info .speak .russian h3 {
+     justify-content: center;
+ }
+ .container .left_section .info .speak .russian .dots {
+     width: 70%;
+ }
+  .container .left_section .info .speak .english {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 18%;
+  }
+  .container .left_section .info .speak .english h3 {
+      justify-content: center;
+  }
+  .container .left_section .info .speak .english .dots {
+      width: 70%;
+  }
+   .container .left_section .info .speak .spanish {
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+       margin-left: 18%;
+   }
+   .container .left_section .info .speak .spanish h3 {
+       justify-content: center;
+   }
+   .container .left_section .info .speak .spanish .dots {
+       width: 70%;
+   }
+}
+@media (max-width: 1000px){
+   .container .right_section .learning{
+    margin-top: 38%;
+   }
+   .container .right_section .mastery{
+    margin-top: 3%;
+   }
+}
+@media (max-width: 940px){
+    .container{
+        flex-direction: column;
+    }
+    .container .left_section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .left_section .info .title{
+        font-size: 31px;
+        margin-top: 5%;
+    }
+    .container .left_section .info .title_contact {
+        height: 60px;
+    }
+    .container .left_section .info .contact .lines{
+        font-size: 26px;
+        justify-content: flex-start;
+    }
+    .container .left_section .info .social .lines {
+        justify-content: flex-start;
+        font-size: 26px;
+    }
+    .container .left_section .info .speak .ukrainian h3{
+        font-size: 25px;
+        margin-top: -7%;
+    }
+    .container .left_section .info .speak .russian h3 {
+        font-size: 25px;
+    }
+    .container .left_section .info .speak .english h3 {
+        font-size: 25px;
+    }
+    .container .left_section .info .speak .spanish h3 {
+        font-size: 25px;
+    }
+    .container .left_section .info .speak .ukrainian .dots{
+        justify-content: space-evenly;
+    }
+    .container .left_section .info .speak .russian .dots{
+        justify-content: space-evenly;
+    }
+    .container .left_section .info .speak .english .dots {
+        justify-content: space-evenly;
+    }
+    .container .left_section .info .speak .spanish .dots {
+        justify-content: space-evenly;
+    }
+    .container .left_section .info .hobby{
+        font-size: 30px;
+    }
+    .container .left_section .info .hobby .box{
+        margin: -10% 0 10% 21%;
+    }
+    .container .right_section{
+        margin: 3% 5% 0% 15%;
+    }
+    .container .right_section .about p{
+        font-size: 22px;
+    }
+    .container .right_section .learning .study .period .name{
+        font-size: 21px;
+    }
+    .container .right_section .learning .study p {
+        font-size: 21px;
+    }
+    .container .right_section .profession .work .period .name{
+        font-size: 21px;
+    }
+    .container .right_section .profession .work p {
+        font-size: 21px;
+    }
+}
+@media (max-width: 850px){
+    .container .right_section .learning{
+        margin-top: 41%;
+    }
+}
+@media (max-width: 800px){
+    .container .right_section .learning {
+        margin-top: 65%;
+    }
+    .container .right_section .about .caption img {
+        width: 8%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .learning .caption img {
+        width: 8%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .profession .caption img {
+        width: 8%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .mastery .caption img {
+        width: 8%;
+        height: 2%;
+        margin-top: 4%;
+    }
+}
+@media (max-width: 700px) {
+    .container .right_section .learning {
+        margin-top: 70%;
+    }
+    .container .left_section .info .hobby .box {
+        margin: -9% 0 10% 21%;
+        font-size: 25px;
+    }
+    .container .right_section .mastery .box .photoshop{
+        flex-direction: column;
+    }
+    .container .right_section .mastery .box .html{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .container .right_section .mastery .box .css {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .container .right_section .mastery .box .javaScript{
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .container .right_section .mastery .boxing .photoshop {
+        flex-direction: column;
+    }
+    .container .right_section .mastery .boxing .html {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    
+    .container .right_section .mastery .boxing .css {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .container .right_section .mastery .boxing .javaScript {
+        flex-direction: column;
+        margin-top: 15%;
+    }
+}
+@media (max-width: 680px){
+    .container .right_section .learning{
+        margin-top: 80%;
+    }
+    .container .right_section .mastery .main .box {
+        width: 52%;
+    }
+    .container .right_section .mastery .main .boxing {
+        width: 52%;
+    }
+}
+@media (max-width: 650px) {
+    .container .left_section .info .hobby{
+        flex-direction: column;
+    }
+    .container .left_section .info .hobby .box{
+        margin: -8% 0 10% 36%;
+    }
+    .container .right_section .learning {
+         margin-top: 115%;
+    }
+    .container .right_section .mastery .main .box{
+        width: 50%;
+    }
+    .container .right_section .mastery .main .boxing{
+        width: 50%;
+    }
+    .container .right_section .learning .study .period .name{
+        font-size: 19px;
+    }
+    .container .right_section .learning .study .period .date{
+        font-size: 14px;
+    }
+    .container .right_section .profession .work .period .date{
+        font-size: 14px;
+    }
+    .container .right_section .profession .work .period .name {
+        font-size: 20px;
+    }
+    .container .right_section .profession .work .period .date{
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px){
+    .container .right_section .learning {
+        margin-top: 188%;
+    }
+    .container .right_section .about .caption img {
+        width: 14%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .learning .caption img {
+        width: 14%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .profession .caption img {
+        width: 14%;
+        height: 2%;
+        margin-top: 4%;
+    }
+    .container .right_section .mastery .caption img {
+        width: 14%;
+        height: 2%;
+        margin-top: 4%;
+    }
+   .container .right_section .mastery .main .box {
+       width: 58%;
+       margin-left: -10%;
+   }
+   .container .right_section .mastery .main .boxing {
+       width: 58%;
+       margin-left: -10%;
+   }
+}
+@media (max-width: 320px){
+    .container .right_section .learning {
+        margin-top: 483%;
+    }
+    .container .left_section .info .social .lines a {
+        font-size: 20px;
+    }
+    .container .left_section .info .contact .lines a{
+        font-size: 18px;
+    }
+    .container .left_section .info .hobby .box {
+            margin: -7% 0 10% 32%;
+    }
+    .container .right_section .mastery .boxing .photoshop h3{
+        font-size: 16px;
+    }
+    .container .right_section .mastery .box .photoshop h3 {
+        font-size: 16px;
+    }
+        
+}
